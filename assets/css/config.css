@@ -1,0 +1,95 @@
+:root {
+          --mastercolor: #ae2626;
+          --mastercolor25p:rgb(174 38 38 / 25%);
+          --gray:#c7c7c7;
+          --gray1:#f0f0f0;
+          --gray2:#7c7c7c;
+          --gray3:#D7D7D7;
+          --gray4:#494949;
+          --gray5:#f1f1f1;
+          --gray6:#E1E1E1;
+          --gray7:#ced4da;
+          --darkGray:#495057;
+          --light:#f8f9fb;
+          --light1:#F8F8F8;
+          --dark75p:rgb(57 57 57 / 75%);
+          --light75p:rgb(183 183 183 / 75%);
+          --green1: #39970C;
+          --green2: #76FC93;
+          --black:#000;
+          --white:#fff;
+          --logo-size:130px;
+          --font-family1:"Roboto";
+          --font-family2:"OpenSans";
+          --font-family3:"Lato";
+
+          --chart-success:#2EE1A1;
+          --chart-danger:#FF3B3B;
+          --chart-warning:#FFC75B;
+          --chart-primary:#00B3E3;
+          --chart-decline:#B7C700;
+          --chart-pink:#D885A3;
+          --chart-orange:#F76E11;
+          --fw_normal:400;
+          --fw_medium:500;
+          --fw_bold:600;
+
+
+}
+
+
+@font-face {
+font-family: 'Roboto';
+src: url('../fonts/Roboto/Roboto-Thin.ttf');
+font-weight: 100;
+}
+@font-face {
+font-family: 'Roboto';
+src: url('../fonts/Roboto/Roboto-Light.ttf');
+font-weight: 300;
+}
+@font-face {
+font-family: 'Roboto';
+src: url('../fonts/Roboto/Roboto-Regular.ttf');
+font-weight: 400;
+}
+@font-face {
+font-family: 'Roboto';
+src: url('../fonts/Roboto/Roboto-Medium.ttf');
+font-weight: 500;
+}
+@font-face {
+font-family: 'Roboto';
+src: url('../fonts/Roboto/Roboto-Bold.ttf');
+font-weight: 700;
+}
+@font-face {
+font-family: 'Roboto';
+src: url('../fonts/Roboto/Roboto-Black.ttf');
+font-weight: 900;
+}
+
+@font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'OpenSans';
+    src: url('../fonts/Open_Sans/OpenSans-SemiBold.ttf');
+    font-weight: 600;
+  }
+
+  @font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Light.ttf');
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Regular.ttf');
+  }
+  @font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato/Lato-Bold.ttf');
+    font-weight: 700;
+  }

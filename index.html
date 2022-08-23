@@ -1,0 +1,186 @@
+
+<!doctype html>
+<html lang="en">
+    
+    <head>
+        
+        <meta charset="utf-8" />
+        <title>SIB Agent</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- App favicon -->
+        <!-- <link rel="shortcut icon" href="assets/images/favicon.ico"> -->
+
+        <!-- Bootstrap Css -->
+        <link href="assets/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+        <!-- Font-awesome Css -->
+        <link href="assets/font-awesome/css/all.min.css" rel="stylesheet" type="text/css" />
+        <!-- App Css-->
+        <link href="assets/css/config.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/common.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/style.css" rel="stylesheet" type="text/css" />
+        <link href="assets/css/customer.css" rel="stylesheet" type="text/css" />
+
+    </head>
+
+    <body class="no-sidebar text-black bg-white">
+
+        
+        <div class="px_chatbox_icon position-fixed bottom-0 end-0 d-flex justify-content-center align-items-center bg-white text_master rounded-circle shadow_sm2 cursor-pointer m-2 p-2" id="chatBtn">
+            <i class="fas fa-comments font_16"></i>
+        </div>
+        <div class="px_chatbox" id="chatBox">
+            <div class="px_chatbox_header p-2 border-bottom">
+                <div class="d-flex align-items-center">
+                    <div>
+                        <img src="./assets/images/avatar.jpg" alt="" class="px_chatbox_header_img rounded-circle border"/>
+                    </div>
+                    <div class="d-grid px-2 w-100">
+                        <h5 class="line_control_1 font_14 mb-1 pt-1">Agent Name</h5>
+                        <span class="font_12 lh-1 text-success">Online</span>
+                    </div>
+                    <i class="fas fa-times p-1 text_dark_gray cursor-pointer px_hover_1" id="chatBtnClose"></i>
+                </div>
+            </div>
+            <div class="px_chatbox_content p-2">
+                <ul class="d-grid p-0 mb-0 px_chatbox_content_list">
+                    <li class="right">
+                        <p>Hai Iam jimmy Carton. CEO of..</p>
+                    </li>
+                    <li>
+                        <p>Hai Iam jimmy Carton. CEO of..</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="px_chatbox_footer border-top p-2">
+                <div class="d-flex">
+                    <input type="text" class="form-control bg-light border px-2 py-1 rounded-pill" placeholder="Send a message">
+                    <div class="d-flex align-items-center ps-2">
+                        <a class="lh-1 cursor-pointer">
+                            <i class="fas fa-location-arrow font_16 text_dark_gray px_hover_1"></i>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+
+
+        <!-- Begin page -->
+        <div id="layout-wrapper">
+            <!-- Start Header section -->
+            <header>
+                <div class="bg_master py-1 min_h_66x">
+                    <div class="px-4 d-flex justify-content-between align-items-center">
+                        <div class="slim-header-right">
+                            <h5 class="mb-0 text-white fw-bold h4">Video KYC</h5>
+                        </div>
+                        <div>
+                            <img src="assets/images/Logo.png" alt="Avatar" id="avater" class="customer_app_logo w-100">
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white shadow-sm py_1x">
+                    <div class="pe-4 d-flex justify-content-end">
+                        <span class="font_8">Experience Next Generation Banking</span>
+                    </div>
+                </div>
+            </header>
+            <!-- End Header section -->
+            
+            
+            <!-- ============================================================== -->
+            <!-- Start right Content here -->
+            <!-- ============================================================== -->
+            <div class="main-content">
+                <div class="page-content">
+                    <div class="container-fluid">
+
+                        <!-- start page title -->
+                        <div class="row">
+                            <div class="col-12 px-0">
+                                <section class="content_section p-2">
+                                    <div>
+                                        <div class="row mx-0">
+                                            <div class="col-12 col-lg-2"></div>
+                                            <div class="col-12 col-lg-8 bd_master border rounded-1 px-0">
+                                                <div class="white_box d-flex align-items-center justify-content-between pt-2 pb-2 px-2">
+                                                    <div class="d-flex align-items-center">
+                                                        <div>
+                                                            <i class="fas fa-phone-alt bg_master text-white p-2 rounded-circle"></i>
+                                                        </div>
+                                                        <div class="d-grid ms-2">
+                                                            <h3 class="font_14 fw_600 mb-1 text-truncate">Jefferson Norris</h3>
+                                                            <h6 class="mb-0 text_gray2">Connected</h6>
+                                                        </div>
+                                                    </div>
+                                                    <div class="ms-2 flex-shrink-0 d-flex align-items-center">
+                                                        <div>
+                                                            <span class="ms-2 fw_600 font_16">37:38</span>
+                                                        </div>
+                                                        <div class="ps-2">
+                                                            <div class="align-items-center bd_master border d-flex lh-sm px-1 py_2x rounded">
+                                                                <span class="text_master me-1 blinking_anim">
+                                                                    <i class="fas fa-circle"></i>
+                                                                </span>
+                                                                <span class="fw_bold font_12">REC</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                
+                                                <div class="d-flex flex-column  overflow-hidden customer_streaming_video_section">
+                                                    <div class="bg_master py-2 border-top px-2">
+                                                        <div class="d-flex align-items-center">
+                                                            <div class="text-center text-white w-100 ps-2">OTP : 24325</div>
+                                                            <div class="ms-2 cursor-pointer px_hover_1">
+                                                                <i class="fas fa-times bg_light75p wh_20x d-flex align-items-center justify-content-center rounded-circle"></i>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                    <div class="d-flex position-relative h-100 overflow-hidden">
+                                                        <video class="w-100 object_fit_cover bg-body" autoplay>
+                                                            <source src="./assets/images/sample.mp4">
+                                                        </video>
+                                                        <div class="bottom-0 end-0 position-absolute mb-2">
+                                                            <div class="d-grid me-2">
+                                                                <video class="agent_stream_thumb_video" autoplay>
+                                                                    <source src="./assets/images/sample.mp4">
+                                                                </video>
+                                                                <span class="bg-white bg-opacity-75 rounded-1 text-center px-1 mt-2 w-100 font_12">Connected</span>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                            <div class="col-12 col-lg-2"></div> 
+                                        </div>
+                                    </div>
+                                </section>
+                            </div>
+                        </div>
+                        <!-- end page title -->
+
+
+                    </div> <!-- container-fluid -->
+                </div><!-- End Page-content -->
+            </div><!-- end main content-->
+
+        </div>
+        <!-- END layout-wrapper -->
+
+
+        <!-- JAVASCRIPT -->
+        <script src="assets/js/jquery.min.js"></script>
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <script>
+            $(document).ready(function () {
+                $("#chatBtn").click(function(){
+                    $("#chatBox").addClass("active");
+                });
+                $("#chatBtnClose").click(function(){
+                    $("#chatBox").removeClass("active");
+                });
+            });
+        </script>
+    </body>
+</html>

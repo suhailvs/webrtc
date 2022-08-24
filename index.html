@@ -112,7 +112,7 @@
                                                             <i class="fas fa-phone-alt bg_master text-white p-2 rounded-circle"></i>
                                                         </div>
                                                         <div class="d-grid ms-2">
-                                                            <h3 class="font_14 fw_600 mb-1 text-truncate">Jefferson Norris 5</h3>
+                                                            <h3 class="font_14 fw_600 mb-1 text-truncate">Jefferson Norris 6</h3>
                                                             <h6 class="mb-0 text_gray2">Connected</h6>
                                                         </div>
                                                     </div>
@@ -148,8 +148,8 @@
 
                                                             <div class="d-grid me-2">
                                                                 <div id="media-player" class="position-relative"> 
-                                                                    <div class="position-absolute w-100 h-100 start-0 zi_1"></div>
-                                                                <video class="agent_stream_thumb_video" autoplay controls playsinline>
+                                                                    <!-- <div class="position-absolute w-100 h-100 start-0 zi_1"></div> -->
+                                                                <video class="agent_stream_thumb_video" autoplay controls playsinline id="thumbvideo">
                                                                     <source src="./assets/images/sample.mp4">
                                                                 </video>
                                                             </div>
@@ -187,7 +187,13 @@
                 $("#chatBtnClose").click(function(){
                     $("#chatBox").removeClass("active");
                 });
+                setTimeout(() => {
+                    var vid = document.getElementById("thumbvideo");
+                    vid.play();
+    }, 2000);
             });
+
+           
         </script>
     </body>
 </html>
